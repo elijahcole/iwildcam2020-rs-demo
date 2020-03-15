@@ -5,6 +5,6 @@ The script `iwildcam_rs_minimal.py` (together with `iwildcam_rs_utils.py`) is me
 
 Running the command
 ```
-python iwildcam_rs_minimal.py /path/to/rs/data/iwildcam_rs_npy --site 107
+python iwildcam_rs_minimal.py --rs-path /path/to/rs/data/iwildcam_rs_npy --site 107
 ```
 will choose a random time point for site `107` and extract the corresponding infrared imagery and a mask representing the pixels classified as *clear* according to the automatically generated `pixelqa` data. Files are saved to the location of the script. 
